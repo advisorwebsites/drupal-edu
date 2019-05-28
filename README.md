@@ -10,7 +10,7 @@ This is a starter guide that you will use to set up a Drupal playground on your 
 
 - Turn on apache and mariadb: `brew services start httpd && brew services start mariadb`
 
-- Replace your Apache config (httpd.conf with the one attached to this repo. (Find my name "lucasrasmussen" and replace with your own user folder (and location if preferred).
+- Replace your Apache config (httpd.conf with the one attached to this repo. (Find my name "lucasrasmussen" and replace with your own user folder (and location if preferred). Might be at `/usr/local/etc/httpd/httpd.conf` but the install command will tell you.
 
 - Restart Apache to take into account the new config: `brew services restart httpd && brew services restart mariadb`
 
