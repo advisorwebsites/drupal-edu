@@ -8,9 +8,11 @@ This is a starter guide that you will use to set up a Drupal playground on your 
 
 - Install dependencies: `brew install php@7.1 apache2 mariadb`
 
-- Turn on apache and mariadb: `brew services restart httpd && brew services restart mariadb`
+- Turn on apache and mariadb: `brew services start httpd && brew services start mariadb`
 
 - Replace your Apache config (httpd.conf with the one attached to this repo. (Find my name "lucasrasmussen" and replace with your own user folder (and location if preferred).
+
+- Turn on apache and mariadb: `brew services restart httpd && brew services restart mariadb`
 
 - Download Drupal: `composer create-project drupal-composer/drupal-project:8.x-dev ~/Sites/Drupal --no-interaction` (Change the second parameter appropriately if you altered the apache config)
 
