@@ -12,7 +12,7 @@ This is a starter guide that you will use to set up a Drupal playground on your 
 
 - Replace your Apache config (httpd.conf with the one attached to this repo. (Find my name "lucasrasmussen" and replace with your own user folder (and location if preferred). Might be at `/usr/local/etc/httpd/httpd.conf` but the install command will tell you.
 
-- Restart Apache to take into account the new config: `brew services restart httpd && brew services restart mariadb`
+- Restart Apache to take into account the new config: `brew services restart httpd`
 
 - Download Drupal: `composer create-project drupal-composer/drupal-project:8.x-dev ~/Sites/Drupal --no-interaction` (Change the second parameter appropriately if you altered the apache config)
 
